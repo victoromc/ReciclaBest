@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "ReciclaBestExpo",
+    "slug": "ReciclaBestExpo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCZvQyrCyWvWxu6xShW9fkE9_wjilfuCCY"
+        }
+      },
+      "permissions": ["ACCESS_COARSE_LOCATION" , "ACCESS_FINE_LOCATION"]
+    }
+  }
+}

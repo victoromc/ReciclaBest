@@ -1,0 +1,48 @@
+.container {
+    color: #282828;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cmpImg{
+    margin-top: 10px;
+}
+.cmpTitle{
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+.divTitle {
+    text-align: center;
+    font-size: 18pt;
+}
+
+.divForm {
+    text-align: center;
+}
+.cmpLabel{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15pt;
+    display: block;
+}
+
+.cmpInput {
+    font-size: 15pt;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgba(20, 224, 117, 0.1); 
+    margin-top: 5px;
+    
+}
+
+.btn{
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #14E075;
+    font-size: 15pt;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
+}
+
+
+/* COLORS: #282828  #14E075*/

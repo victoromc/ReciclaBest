@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="divTitle">
+        <img class="cmpImg" src="../../assets/logoReciclaBest.png">
+        <h3 class="cmpTitle">Cadastro ReciclaBest</h3>
+    </div>
+    <div class="divForm">
+        <form #f="ngForm" (ngSubmit)="onSubmitCadastro(f)" novalidate>
+            <div>
+                <label class="cmpLabel">Nome: </label>
+                <input class = "cmpInput" required type="text" name="firstName" [(ngModel)]="user.firstName" />
+            </div>
+            <div >
+                <label class="cmpLabel">Sobrenome: </label>
+                <input class = "cmpInput" required type="text" name="lastName" [(ngModel)]="user.lastName" />
+            </div>
+            <div>
+                <label class="cmpLabel">CPF:</label>
+                <input class = "cmpInput" required type="text" name="cpf" [(ngModel)]="user.cpf" />
+            </div>
+            <div>
+                <label class="cmpLabel">Senha:</label>
+                <input class = "cmpInput" required type="text" name="password" [(ngModel)]="user.password" />
+            </div>
+            <div>
+                <button class="btn">ENVIAR</button>
+            </div>
+        </form>
+    </div>
+</div>
